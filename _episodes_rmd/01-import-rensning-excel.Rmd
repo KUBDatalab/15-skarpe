@@ -20,6 +20,4 @@ knitr_fig_path("00-")
 
 ## naming files
 
-https://www.youtube.com/watch?v=C69_Ami2G-Q
-
 Det kan gøre mere eller mindre fixt.
