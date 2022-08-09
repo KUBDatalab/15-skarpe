@@ -8,13 +8,13 @@ jobs:
     steps:
       - name: Set up Git repository
         uses: actions/checkout@v2
-        
+      - run: "touch _samlekort_tex/test1.tex"
       - name: Compile LaTeX document
         uses: xu-cheng/latex-action@v2
         with:
           root_file: _samlekort_tex/test1.tex
-          post_compile:
-            latexmk -c
+          args: >-
+            -c
       - name: Commit and push new file
         run: |
           git config user.name "GitHub Actions"
