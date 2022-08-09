@@ -15,6 +15,7 @@ jobs:
           root_file: _samlekort_tex/test1.tex
           args: >-
             -c
+            -output-directory="_samlekort_pdf"
       - name: Commit and push new file
         run: |
           git config user.name "GitHub Actions"

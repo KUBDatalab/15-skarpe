@@ -1,0 +1,23 @@
+---
+title: "Naming files"
+teaching: 15
+exercises: 0
+questions: 
+- "What is this?"
+
+objectives:
+- "Align expections"
+
+keypoints:
+- "navngiv filer fornuftigt"
+source: Rmd
+---
+
+```{r, include = FALSE}
+source("../bin/chunk-options.R")
+knitr_fig_path("00-")
+```
+
+## naming files
+
+Det kan gøre mere eller mindre fixt.

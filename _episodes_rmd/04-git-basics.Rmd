@@ -1,0 +1,22 @@
+---
+title: "git basics"
+teaching: 15
+exercises: 0
+questions: 
+- "FIXME"
+
+objectives:
+- "FIXME"
+
+keypoints:
+- "FIXME"
+source: Rmd
+---
+
+```{r, include = FALSE}
+source("../bin/chunk-options.R")
+knitr_fig_path("00-")
+```
+
+https://www.youtube.com/watch?v=oEW0MLuvlTw
+
