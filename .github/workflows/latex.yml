@@ -12,9 +12,7 @@ jobs:
       - name: Compile LaTeX document
         uses: xu-cheng/latex-action@v2
         with:
-          working_directory: _
           root_file: _samlekort_tex/test1.tex
-          post_compile: "latexmk -c"
       - name: Commit and push new file
         run: |
           git config user.name "GitHub Actions"
